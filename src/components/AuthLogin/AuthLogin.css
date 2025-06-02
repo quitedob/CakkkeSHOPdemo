@@ -1,0 +1,168 @@
+/* 登录页面整体容器 */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+    font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+/* 登录卡片 */
+.login-card {
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 40px;
+    width: 400px;
+    margin-right: 40px;
+}
+
+/* 登录logo */
+.login-logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 登录标题 */
+.login-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* 登录表单 */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* 表单组 */
+.login-form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 表单标签 */
+.login-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+/* 输入框 */
+.login-input {
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.login-input:focus {
+    border-color: #409eff;
+    outline: none;
+}
+
+/* 错误提示 */
+.login-error {
+    color: #f56c6c;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+/* 登录按钮 */
+.login-button {
+    width: 100%;
+    height: 40px;
+    background-color: #409eff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover:not(:disabled) {
+    background-color: #66b1ff;
+}
+
+.login-button:disabled {
+    background-color: #c0c4cc;
+    cursor: not-allowed;
+}
+
+/* 帮助链接 */
+.login-help {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+}
+
+.login-help p {
+    margin: 0;
+}
+
+/* 登录说明 */
+.login-instructions {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.instructions-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.instructions-content h3 {
+    color: #333;
+    font-size: 16px;
+    margin: 15px 0 10px;
+}
+
+.instructions-content p,
+.instructions-content ol,
+.instructions-content ul {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.instructions-content ul {
+    padding-left: 20px;
+}
+
+.instructions-content li {
+    margin-bottom: 5px;
+}
+.admin-link {
+    color: #409eff;  /* 蓝色文字 */
+    cursor: pointer; /* 鼠标悬停时显示手型 */
+    text-decoration: underline; /* 下划线效果 */
+}
